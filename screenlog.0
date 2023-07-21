@@ -1,0 +1,1395 @@
+˛Ô÷T(˝L¸!Nj]Y%)èﬂ+[Î"_uëê	"∑±—S
+V-8Çï•™YµQ0∑˝lJ^Ø+
+õuõ_Ö+*T´N“J"™DÎäPˇØˇ! 4]Y%)è˚•ÀDÎ
+äzÍ	EÅ{	ä⁄a—S
+¨-8Çï•˙YµQ0∑˝lJ^Ø+
+öuõ_Ö+*T´N“J"™DÎäPˇØˇ!4]Y%)èﬂ+[Î
+2ıù¡ëê	"∑±—S
+¨-8Çï•◊ñµQ0∑˝lJ^Ø+
+öuœØ°Jä*’ßΩµTÙMá˝_ˇ!â4]Y%)èﬂ+[Î
+äzÍ	EÅ"∑±—S
+¨-8Çï•JüµQ0∑˝lJ^Ø+
+öuõØ°Jä*’ßΩµT”k≈PˇØˇ!Éj]Y%)~+[…ØXPÙÍ	EÅKı]±—S
+¨-8Çï•™Y›
+¶DkÔ∑µKW+
+öuõ_Ö+*TOøΩµTÙMá˝_	k›≠%)èﬂ+[Î
+äzÍ¡ëê	"∑±—S
+¨-8Çï•™YµQ0∑˝lJ^Ø+
+öuõ_Ö+*T´N“J"ZÙMá˝_SsZ4ÌÚëÿÂû!ØwY%)èÔ•ÀDÎ
+äzÍ	EÅKıµ±—S
+¨-8Çï•™Y‘Q0∑˝lJ^Ø+õuõ_Ö+*T´N“J"™Dk≈§ˇØgπaím“≤Ì≥Uˇ!>k]Y%)èﬂ+[ÎäzÍ	≥ÅP¥ÖGi[ JáÄÏXV≠ù9-¶DkÔ∑µKW+
+öπÕØ°Jä*’ßΩµTÙÕá˝_	˙£ÕÆu…)èﬂkñàÎ
+äzÍ	EÅKÂma—S
+¨-8Çïı™YµQ0∑˝lJ^ØMÊªÕØ°Jä*’ßΩµTıMá˝_ˇ
+CentOS Linux 7 (Core)
+Kernel 4.14.69-80.2bs.el7.centos.x86_64 on an x86_64
+
+cpe-0c73eb998bf7f8f9 login: baishan123
+Password: 
+Login incorrect
+
+cpe-0c73eb998bf7f8f9 login: root
+Password: 
+Login incorrect
+
+cpe-0c73eb998bf7f8f9 login: root
+Password: 
+Last failed login: Thu Jul 13 17:02:18 CST 2023 on ttyS0
+There was 1 failed login attempt since the last successful login.
+Last login: Thu Jul 13 11:36:22 on pts/1
+[root@cpe-0c73eb998bf7f8f9 ~]# [H[J[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# ls
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# ping www.baiu.d[K[K[Kdu.com
+PING www.a.shifen.com (110.242.68.3) 56(84) bytes of data.
+
+
+
+
+--- www.a.shifen.com ping statistics ---
+104 packets transmitted, 0 received, 100% packet loss, time 105503ms
+
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# iptables -t mangle -D OUTPUT -m set ! --match-set  nchina dst -j MARK ! --set-xmark 0xa/0xffffffff &&  iptables-save > /usr/local/ bnetfilter/sysconfig/iptables
+iptables v1.4.21: MARK: option "--set-xmark" cannot be inverted.
+
+Try `iptables -h' or 'iptables --help' for more information.
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# ping wwwba[K[K.baidu.com
+
+[root@cpe-0c73eb998bf7f8f9 ~]# 
+[root@cpe-0c73eb998bf7f8f9 ~]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s29u1u1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether ac:d0:8c:35:60:2d brd ff:ff:ff:ff:ff:ff
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.60/25 brd 172.17.0.127 scope global noprefixroute dynamic eth0
+       valid_lft 150600sec preferred_lft 150600sec
+    inet6 fe80::e73:ebff:fe99:8bf7/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f8 brd ff:ff:ff:ff:ff:ff
+5: eth2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master ovs-system state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+6: eth3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fa brd ff:ff:ff:ff:ff:ff
+7: eth4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fb brd ff:ff:ff:ff:ff:ff
+8: eth5: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fc brd ff:ff:ff:ff:ff:ff
+    inet 169.254.200.1/24 brd 169.254.200.255 scope link noprefixroute eth5
+       valid_lft forever preferred_lft forever
+9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 8e:0b:58:de:54:e5 brd ff:ff:ff:ff:ff:ff
+10: br-vlan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+11: tun1672-0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc htb state UNKNOWN group default qlen 1000
+    link/none 
+    inet 169.254.255.249/32 scope global tun1672-0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0d7:2fbd:d665:3726/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+12: t-yd: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::7ceb:3441:1182:3002/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+13: t-dx: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::c727:5ca8:7d42:8e2a/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+14: VLAN_77: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether be:eb:86:20:b4:d4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.168.1/24 scope global VLAN_77
+       valid_lft forever preferred_lft forever
+15: veth200@if16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ba:1a:af:ad:2c:a0 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.90.10.200/24 scope global veth200
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b81a:afff:fead:2ca0/64 scope link 
+       valid_lft forever preferred_lft forever
+[root@cpe-0c73eb998bf7f8f9 ~]# cd /[K[K[K[Kcd /opt/[K[K[K[Ketc/sysconfig/network
+-bash: cd: /etc/sysconfig/network: Not a directory
+[root@cpe-0c73eb998bf7f8f9 ~]# ls
+[root@cpe-0c73eb998bf7f8f9 ~]# cd [K[K[Kcd /etc/sysconfig/net-s[K[Kwork-scripts/
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+cd [root@cpe-0c73eb998bf7f8f9 network-scripts]# cd [K[K[Kcat ifcfg-[K[Kg-c[Keth0 
+TYPE=Ethernet
+DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+NAME=eth0
+MTU=1500
+IPV4_ROUTE_METRIC=1
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# systemctl resatrt network 
+Unknown operation 'resatrt'.
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# syste[K[K[K[K[Ksystemctl restart network 
+[23374.870796] IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+[23375.733686] IPv6: ADDRCONF(NETDEV_UP): eth5: link is not ready
+[23378.022028] IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+[23378.835414] IPv6: ADDRCONF(NETDEV_UP): eth5: link is not ready
+Job for network.service failed because the control process exited with error code. See "systemctl status network.service" and "journalctl -xe" for details.
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ipa
+-bash: ipa: command not found
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s29u1u1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether ac:d0:8c:35:60:2d brd ff:ff:ff:ff:ff:ff
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.60/25 brd 172.17.0.127 scope global noprefixroute dynamic eth0
+       valid_lft 172780sec preferred_lft 172780sec
+    inet6 fe80::e73:ebff:fe99:8bf7/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f8 brd ff:ff:ff:ff:ff:ff
+5: eth2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master ovs-system state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+6: eth3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fa brd ff:ff:ff:ff:ff:ff
+7: eth4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fb brd ff:ff:ff:ff:ff:ff
+8: eth5: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fc brd ff:ff:ff:ff:ff:ff
+    inet 169.254.200.1/24 brd 169.254.200.255 scope link noprefixroute eth5
+       valid_lft forever preferred_lft forever
+9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 8e:0b:58:de:54:e5 brd ff:ff:ff:ff:ff:ff
+10: br-vlan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+11: tun1672-0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc htb state UNKNOWN group default qlen 1000
+    link/none 
+    inet 169.254.255.249/32 scope global tun1672-0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0d7:2fbd:d665:3726/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+12: t-yd: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::7ceb:3441:1182:3002/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+13: t-dx: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::c727:5ca8:7d42:8e2a/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+14: VLAN_77: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether be:eb:86:20:b4:d4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.168.1/24 scope global VLAN_77
+       valid_lft forever preferred_lft forever
+15: veth200@if16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ba:1a:af:ad:2c:a0 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.90.10.200/24 scope global veth200
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b81a:afff:fead:2ca0/64 scope link 
+       valid_lft forever preferred_lft forever
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [[Kp[ong[K[K[K[K[Kping www.baidu.com
+
+
+
+
+
+
+
+
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -L 
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     tcp  --  localhost            anywhere             multiport dports 4222
+SDWAN-IPTABLES  all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:12222
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-MSS  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain SDWAN-IPTABLES (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED,UNTRACKED
+ACCEPT     ospf --  anywhere             anywhere            
+ACCEPT     ipv6-icmp--  anywhere             anywhere            
+ACCEPT     gre  --  anywhere             anywhere            
+ACCEPT     vrrp --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  localhost            anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             multiport dports 12222,http,20022,irdmi,https,bgp,targus-getdata1,20080,20443,37000,8673,ssh
+ACCEPT     udp  --  anywhere             anywhere             multiport dports domain,bootps,bootpc,targus-getdata1
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain SDWAN-MSS (1 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ipta[K[K[K[Kiptables -t manage[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kiptables -t mange[K[K[K[K[Kmangle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+FORWARD_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+OUTPUT_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+QOS_ROOT_BRIDGE  all  --  anywhere             anywhere            
+
+Chain FORWARD_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error[16 bytes of unknown target data] 
+
+Chain OUTPUT_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error NDPI NETFLOW
+
+Chain QOS_ROOT (1 references)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             MARK set 0x15
+RETURN     all  --  anywhere             anywhere             mark match 0x15
+
+Chain QOS_ROOT_BRIDGE (1 references)
+target     prot opt source               destination         
+QOS_ROOT   all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s29u1u1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether ac:d0:8c:35:60:2d brd ff:ff:ff:ff:ff:ff
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.60/25 brd 172.17.0.127 scope global noprefixroute dynamic eth0
+       valid_lft 172689sec preferred_lft 172689sec
+    inet6 fe80::e73:ebff:fe99:8bf7/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f8 brd ff:ff:ff:ff:ff:ff
+5: eth2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master ovs-system state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+6: eth3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fa brd ff:ff:ff:ff:ff:ff
+7: eth4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fb brd ff:ff:ff:ff:ff:ff
+8: eth5: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fc brd ff:ff:ff:ff:ff:ff
+    inet 169.254.200.1/24 brd 169.254.200.255 scope link noprefixroute eth5
+       valid_lft forever preferred_lft forever
+9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 8e:0b:58:de:54:e5 brd ff:ff:ff:ff:ff:ff
+10: br-vlan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+11: tun1672-0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc htb state UNKNOWN group default qlen 1000
+    link/none 
+    inet 169.254.255.249/32 scope global tun1672-0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0d7:2fbd:d665:3726/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+12: t-yd: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::7ceb:3441:1182:3002/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+13: t-dx: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::c727:5ca8:7d42:8e2a/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+14: VLAN_77: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether be:eb:86:20:b4:d4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.168.1/24 scope global VLAN_77
+       valid_lft forever preferred_lft forever
+15: veth200@if16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ba:1a:af:ad:2c:a0 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.90.10.200/24 scope global veth200
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b81a:afff:fead:2ca0/64 scope link 
+       valid_lft forever preferred_lft forever
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# systemctl [K[K[K[K[K[K[K[K[K[Kroute -n 
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         172.17.0.1      0.0.0.0         UG    1      0        0 eth0
+1.180.18.28     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+8.8.8.4         172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+8.8.8.8         172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+10.90.10.0      0.0.0.0         255.255.255.0   U     0      0        0 veth200
+39.156.149.130  172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.10     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.13     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.16     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.18     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.19     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.20     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.21     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.22     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.23     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.24     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+42.81.63.26     172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+58.222.57.212   172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+109.244.38.30   172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+114.114.114.114 172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+119.29.29.29    172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+120.241.231.195 172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+121.14.82.246   172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+169.254.200.0   0.0.0.0         255.255.255.0   U     101    0        0 eth5
+169.254.255.250 169.254.255.249 255.255.255.255 UGH   18     0        0 tun1672-0
+169.254.255.251 169.254.255.249 255.255.255.255 UGH   18     0        0 tun1672-0
+172.17.0.0      0.0.0.0         255.255.255.128 U     1      0        0 eth0
+183.131.145.202 172.17.0.1      255.255.255.255 UGH   1      0        0 eth0
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping v[K172.17.0.1
+PING 172.17.0.1 (172.17.0.1) 56(84) bytes of data.
+
+
+
+
+
+
+--- 172.17.0.1 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3076ms
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip ta[K[K[K[K[Kiptables -L 
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     tcp  --  localhost            anywhere             multiport dports 4222
+SDWAN-IPTABLES  all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:12222
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-MSS  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain SDWAN-IPTABLES (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED,UNTRACKED
+ACCEPT     ospf --  anywhere             anywhere            
+ACCEPT     ipv6-icmp--  anywhere             anywhere            
+ACCEPT     gre  --  anywhere             anywhere            
+ACCEPT     vrrp --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  localhost            anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             multiport dports 12222,http,20022,irdmi,https,bgp,targus-getdata1,20080,20443,37000,8673,ssh
+ACCEPT     udp  --  anywhere             anywhere             multiport dports domain,bootps,bootpc,targus-getdata1
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain SDWAN-MSS (1 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -L[Kl
+iptables v1.4.21: unknown option "-l"
+Try `iptables -h' or 'iptables --help' for more information.
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     tcp  --  localhost            anywhere             multiport dports 4222
+SDWAN-IPTABLES  all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:12222
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-MSS  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain SDWAN-IPTABLES (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED,UNTRACKED
+ACCEPT     ospf --  anywhere             anywhere            
+ACCEPT     ipv6-icmp--  anywhere             anywhere            
+ACCEPT     gre  --  anywhere             anywhere            
+ACCEPT     vrrp --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  localhost            anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             multiport dports 12222,http,20022,irdmi,https,bgp,targus-getdata1,20080,20443,37000,8673,ssh
+ACCEPT     udp  --  anywhere             anywhere             multiport dports domain,bootps,bootpc,targus-getdata1
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain SDWAN-MSS (1 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t nat -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-DNAT  all  --  anywhere             anywhere            
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-SNAT  all  --  anywhere             anywhere            
+
+Chain SDWAN-DNAT (1 references)
+target     prot opt source               destination         
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+
+Chain SDWAN-SNAT (1 references)
+target     prot opt source               destination         
+MASQUERADE  all  --  anywhere             anywhere            
+MASQUERADE  all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t manage[K[K[Kgle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+FORWARD_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+OUTPUT_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+QOS_ROOT_BRIDGE  all  --  anywhere             anywhere            
+
+Chain FORWARD_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error[16 bytes of unknown target data] 
+
+Chain OUTPUT_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error NDPI NETFLOW
+
+Chain QOS_ROOT (1 references)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             MARK set 0x15
+RETURN     all  --  anywhere             anywhere             mark match 0x15
+
+Chain QOS_ROOT_BRIDGE (1 references)
+target     prot opt source               destination         
+QOS_ROOT   all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s29u1u1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether ac:d0:8c:35:60:2d brd ff:ff:ff:ff:ff:ff
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.60/25 brd 172.17.0.127 scope global noprefixroute dynamic eth0
+       valid_lft 172545sec preferred_lft 172545sec
+    inet6 fe80::e73:ebff:fe99:8bf7/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f8 brd ff:ff:ff:ff:ff:ff
+5: eth2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master ovs-system state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+6: eth3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fa brd ff:ff:ff:ff:ff:ff
+7: eth4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fb brd ff:ff:ff:ff:ff:ff
+8: eth5: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fc brd ff:ff:ff:ff:ff:ff
+    inet 169.254.200.1/24 brd 169.254.200.255 scope link noprefixroute eth5
+       valid_lft forever preferred_lft forever
+9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 8e:0b:58:de:54:e5 brd ff:ff:ff:ff:ff:ff
+10: br-vlan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+11: tun1672-0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc htb state UNKNOWN group default qlen 1000
+    link/none 
+    inet 169.254.255.249/32 scope global tun1672-0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0d7:2fbd:d665:3726/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+12: t-yd: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::7ceb:3441:1182:3002/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+13: t-dx: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::c727:5ca8:7d42:8e2a/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+14: VLAN_77: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether be:eb:86:20:b4:d4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.168.1/24 scope global VLAN_77
+       valid_lft forever preferred_lft forever
+15: veth200@if16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ba:1a:af:ad:2c:a0 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.90.10.200/24 scope global veth200
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b81a:afff:fead:2ca0/64 scope link 
+       valid_lft forever preferred_lft forever
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 172.17.0.127
+Do you want to ping broadcast? Then -b. If not, check your local firewall rules.
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# syste[K[K[K[K[Kiptables -L 
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     tcp  --  localhost            anywhere             multiport dports 4222
+SDWAN-IPTABLES  all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:12222
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-MSS  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain SDWAN-IPTABLES (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED,UNTRACKED
+ACCEPT     ospf --  anywhere             anywhere            
+ACCEPT     ipv6-icmp--  anywhere             anywhere            
+ACCEPT     gre  --  anywhere             anywhere            
+ACCEPT     vrrp --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  localhost            anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             multiport dports 12222,http,20022,irdmi,https,bgp,targus-getdata1,20080,20443,37000,8673,ssh
+ACCEPT     udp  --  anywhere             anywhere             multiport dports domain,bootps,bootpc,targus-getdata1
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain SDWAN-MSS (1 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables =[K-t nat -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-DNAT  all  --  anywhere             anywhere            
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-SNAT  all  --  anywhere             anywhere            
+
+Chain SDWAN-DNAT (1 references)
+target     prot opt source               destination         
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+
+Chain SDWAN-SNAT (1 references)
+target     prot opt source               destination         
+MASQUERADE  all  --  anywhere             anywhere            
+MASQUERADE  all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t mangle -F
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+PING www.a.shifen.com (110.242.68.4) 56(84) bytes of data.
+64 bytes from 110.242.68.4 (110.242.68.4): icmp_seq=1 ttl=48 time=10.2 ms
+
+--- www.a.shifen.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 10.277/10.277/10.277/0.000 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.comiptables -t mangle -F
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t mangle -F[3Pping www.baidu.comiptables -t mangle -F[3Pping www.baidu.com[Kiptables -t mangle -F[KL
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+FORWARD_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+OUTPUT_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+QOS_ROOT_BRIDGE  all  --  anywhere             anywhere            
+
+Chain FORWARD_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error[16 bytes of unknown target data] 
+
+Chain OUTPUT_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error NDPI NETFLOW
+
+Chain QOS_ROOT (1 references)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             MARK set 0x15
+RETURN     all  --  anywhere             anywhere             mark match 0x15
+
+Chain QOS_ROOT_BRIDGE (1 references)
+target     prot opt source               destination         
+QOS_ROOT   all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+
+
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 8.8..8
+ping: 8.8..8: Name or service not known
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=46.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=46.0 ms
+
+--- 8.8.8.8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 46.098/46.123/46.149/0.216 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.g=bai[K[K[K[K[Kbaiduu.com[K[K[K[K[K.com
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# s[Kls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+ip a
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s29u1u1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether ac:d0:8c:35:60:2d brd ff:ff:ff:ff:ff:ff
+3: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.60/25 brd 172.17.0.127 scope global noprefixroute dynamic eth0
+       valid_lft 172443sec preferred_lft 172443sec
+    inet6 fe80::e73:ebff:fe99:8bf7/64 scope link 
+       valid_lft forever preferred_lft forever
+4: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f8 brd ff:ff:ff:ff:ff:ff
+5: eth2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master ovs-system state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+6: eth3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fa brd ff:ff:ff:ff:ff:ff
+7: eth4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fb brd ff:ff:ff:ff:ff:ff
+8: eth5: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:fc brd ff:ff:ff:ff:ff:ff
+    inet 169.254.200.1/24 brd 169.254.200.255 scope link noprefixroute eth5
+       valid_lft forever preferred_lft forever
+9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 8e:0b:58:de:54:e5 brd ff:ff:ff:ff:ff:ff
+10: br-vlan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0c:73:eb:99:8b:f9 brd ff:ff:ff:ff:ff:ff
+11: tun1672-0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc htb state UNKNOWN group default qlen 1000
+    link/none 
+    inet 169.254.255.249/32 scope global tun1672-0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0d7:2fbd:d665:3726/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+12: t-yd: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::7ceb:3441:1182:3002/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+13: t-dx: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/none 
+    inet6 fe80::c727:5ca8:7d42:8e2a/64 scope link flags 800 
+       valid_lft forever preferred_lft forever
+14: VLAN_77: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether be:eb:86:20:b4:d4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.168.1/24 scope global VLAN_77
+       valid_lft forever preferred_lft forever
+15: veth200@if16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ba:1a:af:ad:2c:a0 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.90.10.200/24 scope global veth200
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b81a:afff:fead:2ca0/64 scope link 
+       valid_lft forever preferred_lft forever
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# systemctl status dns[K[K[Ksmartdns
+[1;32m‚óè[0m smartdns.service - SmartDNS Server
+   Loaded: loaded (/usr/lib/systemd/system/smartdns.service; enabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Thu 2023-07-13 11:31:59 CST; 5h 39min ago
+  Process: 2172 ExecStart=/usr/sbin/smartdns -p /var/run/smartdns.pid $SMART_DNS_OPTS (code=exited, status=0/SUCCESS)
+ Main PID: 2183 (smartdns)
+   CGroup: /system.slice/smartdns.service
+           ‚îî‚îÄ2183 /usr/sbin/smartdns -p /var/run/smartdns.pid
+
+Jul 13 11:31:59 cpe-0c73eb998bf7f8f9 systemd[1]: Starting SmartDNS Server...
+Jul 13 11:31:59 cpe-0c73eb998bf7f8f9 systemd[1]: Can't open PID file /var/ru...y
+Jul 13 11:31:59 cpe-0c73eb998bf7f8f9 systemd[1]: Started SmartDNS Server.
+Hint: Some lines were ellipsized, use -l to show in full.
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t nat -F[KL -V
+iptables v1.4.21
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t nat -L -V[Kv
+Chain PREROUTING (policy ACCEPT 2 packets, 260 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    2   260 SDWAN-DNAT  all  --  any    any     anywhere             anywhere            
+
+Chain INPUT (policy ACCEPT 1 packets, 84 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 306 packets, 25715 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 269 packets, 22466 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  306 25715 SDWAN-SNAT  all  --  any    any     anywhere             anywhere            
+
+Chain SDWAN-DNAT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DNAT       udp  --  VLAN_77 any     anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+    0     0 DNAT       udp  --  veth200 any     anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+
+Chain SDWAN-SNAT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+   37  3249 MASQUERADE  all  --  any    eth0    anywhere             anywhere            
+    0     0 MASQUERADE  all  --  any    veth200  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# dig www.baidu.com
+
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.9 <<>> www.baidu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8293
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.baidu.com.			IN	A
+
+;; ANSWER SECTION:
+www.baidu.com.		1090	IN	CNAME	www.a.shifen.com.
+www.a.shifen.com.	182	IN	A	220.181.38.150
+www.a.shifen.com.	182	IN	A	220.181.38.149
+
+;; Query time: 62 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Jul 13 17:12:12 CST 2023
+;; MSG SIZE  rcvd: 101
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# dig www.baidu.comiptables -t nat -L -v
+Chain PREROUTING (policy ACCEPT 3 packets, 344 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    3   344 SDWAN-DNAT  all  --  any    any     anywhere             anywhere            
+
+Chain INPUT (policy ACCEPT 2 packets, 168 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 375 packets, 30566 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 327 packets, 26389 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  375 30566 SDWAN-SNAT  all  --  any    any     anywhere             anywhere            
+
+Chain SDWAN-DNAT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DNAT       udp  --  VLAN_77 any     anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+    0     0 DNAT       udp  --  veth200 any     anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+
+Chain SDWAN-SNAT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+   48  4177 MASQUERADE  all  --  any    eth0    anywhere             anywhere            
+    0     0 MASQUERADE  all  --  any    veth200  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+
+
+
+
+
+
+PING www.a.shifen.com (220.181.38.149) 56(84) bytes of data.
+
+
+
+
+
+
+
+--- www.a.shifen.com ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5145ms
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# curl www.baidu.com
+
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+ipta	 [root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables [K[K[K[K[K[K[K[K[Kiptables -t mangle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+FORWARD_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+OUTPUT_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+QOS_ROOT_BRIDGE  all  --  anywhere             anywhere            
+
+Chain FORWARD_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error[16 bytes of unknown target data] 
+
+Chain OUTPUT_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error NDPI NETFLOW
+
+Chain QOS_ROOT (1 references)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             MARK set 0x15
+RETURN     all  --  anywhere             anywhere             mark match 0x15
+
+Chain QOS_ROOT_BRIDGE (1 references)
+target     prot opt source               destination         
+QOS_ROOT   all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=46.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=46.3 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 2 received, 50% packet loss, time 3064ms
+rtt min/avg/max/mdev = 46.307/46.315/46.323/0.008 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.google.com
+
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ipta -[K[K[K[K[K[Knetstata[K[K[K[K[K[K[K[Knetsta[K[K[Kstat -anptu | grep 53
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K52         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K36         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K90         127.0.0.1:4222          ESTABLISHED 2621/bnetif         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K40         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K90         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K32         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K58         127.0.0.1:4222          ESTABLISHED 2[01;31m[K53[m[K9/bnetdr         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K76         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K50         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K60         127.0.0.1:4222          ESTABLISHED 2[01;31m[K53[m[K9/bnetdr         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K02         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K04         127.0.0.1:4222          ESTABLISHED 2047/bsysota        
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K22         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K72         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K52         127.0.0.1:4222          ESTABLISHED 2114/bnetool        
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K62         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K54         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K24         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K64         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K22         127.0.0.1:4222          ESTABLISHED 2131/bsysmain       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K62         127.0.0.1:4222          ESTABLISHED 2059/cpecollie      
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K82         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K00         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K74         127.0.0.1:4222          ESTABLISHED 2509/bnetnat        
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K24         127.0.0.1:4222          ESTABLISHED 2083/sdwan_iptables 
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K50         127.0.0.1:4222          ESTABLISHED 2088/balarm         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K78         127.0.0.1:4222          ESTABLISHED 2073/goant2         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K98         127.0.0.1:4222          ESTABLISHED 2621/bnetif         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K54         127.0.0.1:4222          ESTABLISHED 2036/bwebssh        
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K84         127.0.0.1:4222          ESTABLISHED 2571/bnetpr         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K94         127.0.0.1:4222          ESTABLISHED 2622/bnetha         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K20         127.0.0.1:4222          ESTABLISHED 2093/bmetry         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K60         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K26         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K36         127.0.0.1:4222          ESTABLISHED 2088/balarm         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K30         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K30         127.0.0.1:4222          ESTABLISHED 2095/bnetacl        
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K74         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K40         127.0.0.1:4222          ESTABLISHED 2114/bnetool        
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K58         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K20         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K96         127.0.0.1:4222          ESTABLISHED 2622/bnetha         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K94         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K98         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K10         127.0.0.1:4222          ESTABLISHED 2131/bsysmain       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K76         127.0.0.1:4222          ESTABLISHED 2073/goant2         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K18         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K02         127.0.0.1:4222          ESTABLISHED 2050/vector_mgrd    
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K78         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K32         127.0.0.1:4222          ESTABLISHED 2095/bnetacl        
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K72         127.0.0.1:4222          ESTABLISHED 2509/bnetnat        
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K96         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K84         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K64         127.0.0.1:4222          ESTABLISHED 2059/cpecollie      
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K00         127.0.0.1:4222          ESTABLISHED 2050/vector_mgrd    
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K10         ESTABLISHED 2033/mqbridge       
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K18         127.0.0.1:4222          ESTABLISHED 2083/sdwan_iptables 
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K26         127.0.0.1:4222          ESTABLISHED 2093/bmetry         
+tcp        0      0 127.0.0.1:3[01;31m[K53[m[K82         127.0.0.1:4222          ESTABLISHED 2571/bnetpr         
+tcp        0      0 127.0.0.1:4222          127.0.0.1:3[01;31m[K53[m[K04         ESTABLISHED 2033/mqbridge       
+udp        0      0 172.17.0.60:44911       1.1.1.1:[01;31m[K53[m[K              ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:47133       114.114.114.114:[01;31m[K53[m[K      ESTABLISHED 782/v2bridge        
+udp        0      0 169.254.255.249:[01;31m[K53[m[K      0.0.0.0:*                           2183/smartdns       
+udp        0      0 172.17.0.60:52355       114.114.114.114:[01;31m[K53[m[K      ESTABLISHED 782/v2bridge        
+udp        0      0 172.17.0.60:60648       9.9.9.9:[01;31m[K53[m[K              ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:39196       1.0.0.1:[01;31m[K53[m[K              ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:58777       114.114.114.114:[01;31m[K53[m[K      ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:36260       8.8.8.8:[01;31m[K53[m[K              ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:50603       223.5.5.5:[01;31m[K53[m[K            ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:46726       119.29.29.29:[01;31m[K53[m[K         ESTABLISHED 23916/ntpdate       
+udp        0      0 172.17.0.60:41606       208.67.222.222:[01;31m[K53[m[K       ESTABLISHED 2183/smartdns       
+udp        0      0 172.17.0.60:51015       119.29.29.29:[01;31m[K53[m[K         ESTABLISHED 2183/smartdns       
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# vi /ec/[K[K[K[K[K[K[Ksystemctl restarts[K smartdns
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -a[KL
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     tcp  --  localhost            anywhere             multiport dports 4222
+SDWAN-IPTABLES  all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             state NEW tcp dpt:12222
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-MSS  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain SDWAN-IPTABLES (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED,UNTRACKED
+ACCEPT     ospf --  anywhere             anywhere            
+ACCEPT     ipv6-icmp--  anywhere             anywhere            
+ACCEPT     gre  --  anywhere             anywhere            
+ACCEPT     vrrp --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+ACCEPT     all  --  localhost            anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             multiport dports 12222,http,20022,irdmi,https,bgp,targus-getdata1,20080,20443,37000,8673,ssh
+ACCEPT     udp  --  anywhere             anywhere             multiport dports domain,bootps,bootpc,targus-getdata1
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain SDWAN-MSS (1 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t nat -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-DNAT  all  --  anywhere             anywhere            
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+SDWAN-SNAT  all  --  anywhere             anywhere            
+
+Chain SDWAN-DNAT (1 references)
+target     prot opt source               destination         
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+DNAT       udp  --  anywhere             anywhere             multiport dports domain to:169.254.255.249:53
+
+Chain SDWAN-SNAT (1 references)
+target     prot opt source               destination         
+MASQUERADE  all  --  anywhere             anywhere            
+MASQUERADE  all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baiud.c[K[K[K[K[Kd[Kidu.com
+
+
+
+
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# dig www.baidu.com
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.9 <<>> www.baidu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5479
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.baidu.com.			IN	A
+
+;; ANSWER SECTION:
+www.baidu.com.		535	IN	CNAME	www.a.shifen.com.
+www.a.shifen.com.	59	IN	A	220.181.38.150
+www.a.shifen.com.	59	IN	A	220.181.38.149
+
+;; Query time: 50 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Jul 13 17:18:12 CST 2023
+;; MSG SIZE  rcvd: 101
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 220.181.38.150
+PING 220.181.38.150 (220.181.38.150) 56(84) bytes of data.
+
+
+
+
+
+
+
+
+
+
+
+--- 220.181.38.150 ping statistics ---
+8 packets transmitted, 0 received, 100% packet loss, time 7189ms
+
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t man[Kgl[K[Kngle. [K[K -F
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t mangle -F[2Pping 220.181.38.150
+PING 220.181.38.150 (220.181.38.150) 56(84) bytes of data.
+64 bytes from 220.181.38.150: icmp_seq=1 ttl=52 time=2.54 ms
+
+--- 220.181.38.150 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.544/2.544/2.544/0.000 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping 220.181.38.150iptables -t mangle -F[2Pping 220.181.38.150[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwww.baidu.com
+PING www.a.shifen.com (110.242.68.4) 56(84) bytes of data.
+64 bytes from 110.242.68.4 (110.242.68.4): icmp_seq=1 ttl=48 time=10.9 ms
+
+--- www.a.shifen.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 10.945/10.945/10.945/0.000 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# [H[J[root@cpe-0c73eb998bf7f8f9 network-scripts]# ls
+ifcfg-eth0   ifdown-ippp      ifup	    ifup-post
+ifcfg-eth1   ifdown-ipv6      ifup-aliases  ifup-ppp
+ifcfg-eth2   ifdown-isdn      ifup-bnep     ifup-routes
+ifcfg-eth3   ifdown-ovs       ifup-eth	    ifup-sit
+ifcfg-eth4   ifdown-post      ifup-ib	    ifup-Team
+ifcfg-eth5   ifdown-ppp       ifup-ippp     ifup-TeamPort
+ifcfg-lo     ifdown-routes    ifup-ipv6     ifup-tunnel
+ifdown	     ifdown-sit       ifup-isdn     ifup-wireless
+ifdown-bnep  ifdown-Team      ifup-ovs	    init.ipv6-global
+ifdown-eth   ifdown-TeamPort  ifup-plip     network-functions
+ifdown-ib    ifdown-tunnel    ifup-plusb    network-functions-ipv6
+i[root@cpe-0c73eb998bf7f8f9 network-scripts]# ip[K[Kipta -[K[K[K[K[K[Kipt -t [K[K[K[K[K[K[Kiptables -t magle[K[K[Knl[Kgle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+FORWARD_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             ! match-set nchina dst MARK set 0xa
+OUTPUT_NDPI_FLOW_INFO  all  --  anywhere             anywhere            
+RETURN     all  --  anywhere             anywhere             mark match 0xa
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+QOS_ROOT_BRIDGE  all  --  anywhere             anywhere            
+
+Chain FORWARD_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error[16 bytes of unknown target data] 
+
+Chain OUTPUT_NDPI_FLOW_INFO (1 references)
+target     prot opt source               destination         
+NDPI       all  -- !localhost            anywhere             !ndpi error NDPI NETFLOW
+
+Chain QOS_ROOT (1 references)
+target     prot opt source               destination         
+MARK       all  --  anywhere             anywhere             MARK set 0x15
+RETURN     all  --  anywhere             anywhere             mark match 0x15
+
+Chain QOS_ROOT_BRIDGE (1 references)
+target     prot opt source               destination         
+QOS_ROOT   all  --  anywhere             anywhere            
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t mangle -L [K[K[K-F ; [K[K &&  iptables -save > /usr/local/bnetfilter/sysconfig/iptables
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# iptables -t mangle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD_NDPI_FLOW_INFO (0 references)
+target     prot opt source               destination         
+
+Chain OUTPUT_NDPI_FLOW_INFO (0 references)
+target     prot opt source               destination         
+
+Chain QOS_ROOT (0 references)
+target     prot opt source               destination         
+
+Chain QOS_ROOT_BRIDGE (0 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+PING www.a.shifen.com (110.242.68.4) 56(84) bytes of data.
+64 bytes from 110.242.68.4 (110.242.68.4): icmp_seq=1 ttl=48 time=10.4 ms
+
+--- www.a.shifen.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 10.437/10.437/10.437/0.000 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.comiptables -t mangle -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD_NDPI_FLOW_INFO (0 references)
+target     prot opt source               destination         
+
+Chain OUTPUT_NDPI_FLOW_INFO (0 references)
+target     prot opt source               destination         
+
+Chain QOS_ROOT (0 references)
+target     prot opt source               destination         
+
+Chain QOS_ROOT_BRIDGE (0 references)
+target     prot opt source               destination         
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# 
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# ping www.baidu.com
+PING www.a.shifen.com (110.242.68.3) 56(84) bytes of data.
+64 bytes from 110.242.68.3 (110.242.68.3): icmp_seq=1 ttl=47 time=10.8 ms
+
+--- www.a.shifen.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 10.813/10.813/10.813/0.000 ms
+[root@cpe-0c73eb998bf7f8f9 network-scripts]# exit
+lo
+CentOS Linux 7 (Core)
+Kernel 4.14.69-80.2bs.el7.centos.x86_64 on an x86_64
+
+cpe-0c73eb998bf7f8f9 login: 
